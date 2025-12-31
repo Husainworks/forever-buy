@@ -1,0 +1,16 @@
+@import "./fonts.css";
+@import "./variables.css";
+
+* {
+  font-family: var(--font-primary);
+}
+
+.active {
+  @apply bg-[#ffebf5] border-[#c586a5];
+}
+
+select,
+input,
+textarea {
+  @apply border-[1px] border-solid border-[#c2c2c2] outline-[#c586a5] rounded-sm;
+}

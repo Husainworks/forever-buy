@@ -1,0 +1,6 @@
+@media (max-width: 640px) {
+    .nav-link-hamburger.active {
+        background-color: black;
+        color: white;
+    }
+}
